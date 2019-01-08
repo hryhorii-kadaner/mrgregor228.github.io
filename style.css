@@ -287,6 +287,7 @@ body {
 	background-color:white;
 	box-shadow:0px 0px 20px black;
 	height: 100vh;
+	padding-bottom: 10em;
 	font-family: 'Lora', serif;
 	font-size: 18px;
 }
@@ -296,20 +297,11 @@ body {
 	box-shadow:0 0 20px black;
 }
 
-.center_bubble {
-	height:0;
-}
-
 .img-circle {
-	position:relative;
-	display:flex;
-	float:none;
-	top:-18vh;
+	position:absolute;
 	border-radius:52%;
 	width:250px;
 	height:250px;
-	margin-left:auto;
-	margin-right:auto;
 	overflow:hidden;
 	background:url(images/helen2.jpg) no-repeat;
 	transform: rotate(-25deg);
@@ -317,20 +309,6 @@ body {
 	background-size:cover;
 	box-shadow:0 0 20px black;
 	border:5px outset gray;
-}
-
-.col-xs-6 , .col-md-4 {
-	text-align:center;
-	top:30vh;
-	height:70vh;
-	transition: .9s;
-}
-
-.col-xs-6:hover , .col-md-12:hover {
-	background-color:rgba(192,192,192, 0.2);
-	transform: translateY(-3vh);
-	box-shadow: 0 0 50px black;
-	transition: .9s;
 }
 
 #bold_text {
