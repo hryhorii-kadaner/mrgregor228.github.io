@@ -27,6 +27,13 @@
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.navbar-nav.mr-auto.dropdown.show {
+		height: 100vh;
+		overflow-y: auto;
+	}
+}
+
 @media screen and (max-width:1158px) and (orientation:landscape) {
 	.top_button {
 		right: 3em;

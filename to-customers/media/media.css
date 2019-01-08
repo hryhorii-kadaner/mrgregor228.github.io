@@ -1,0 +1,101 @@
+﻿@media screen and (min-width: 1256px) and (orientation:landscape) {
+	.med-links {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+	.hwords {
+		font-size: 3em;
+		top: 36%;
+	}
+
+	.par {
+		font-size: 1.5em;
+		top: 55%;
+	}
+
+	.sec2 {
+		height: 100%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-nav.mr-auto.dropdown.show {
+		height: 100vh;
+		overflow-y: auto;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.sec2 {
+		height: 100%;
+	}
+	.hwords {
+		font-size: 2em;
+		top: 40%;
+	}
+
+	.par {
+		font-size: 1.2em;
+		top:54%;
+	}
+
+	.navbar ul ul{ 
+		position: relative;
+		z-index: 9999;
+        top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar ul ul li {
+    	height: 2.7em;
+    	line-height: .6em;
+    }
+
+	.navbar ul ul ul {
+            position: absolute; 
+            left: 100%; 
+            top:0;
+    }
+
+    .navbar-brand {
+    	line-height: 1.5em;
+		font-size: 30px;
+	}
+
+	.navbar-toggler {
+		position: relative;
+		bottom:.33em;
+	}
+
+    .soc_iiicons {
+		display: none;
+		z-index: 0;
+	}
+
+	.foto-gal {
+		display: none;
+	}
+	/*menu*/
+
+	.top_button {
+		right: 1em;
+		bottom: 1em;
+		width: 2.5em;
+		height: 2.5em;
+	}
+
+	.top_button i {
+		font-size: 1.25em;
+	}
+
+	.col-sm-4 img {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		align-items: center;
+	}
+}
