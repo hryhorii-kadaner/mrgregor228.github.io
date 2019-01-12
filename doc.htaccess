@@ -1,6 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine On
-RewriteBase /
-RewriteRule (.*)\.html$ $1 [R=301,L]
-RewriteCond %{HTTP_HOST} ^www.coralife\.cf$ [NC]
-RewriteRule ^(.*)$ http://coralife.cf/$1 [R=301,L]
