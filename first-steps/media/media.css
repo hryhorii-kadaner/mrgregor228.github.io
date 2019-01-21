@@ -2,6 +2,15 @@
 	.med-links {
 		display: none;
 	}
+	.koncep {
+		height: 550px;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.koncep {
+		height: 550px;
+	}
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -30,6 +39,10 @@
 	.soc_iiicons {
 		display: none;
 		z-index: 0;
+	}
+
+	.koncep {
+		height: 450px;
 	}
 }
 
@@ -137,6 +150,10 @@
 	img.figure-img.rounded {
 		width: 100%;
 	}
+
+	.koncep {
+		height: 35vh;
+	}
 }
 
 @media screen and (max-width: 320px) {
@@ -172,5 +189,8 @@
 
 	img.figure-img.rounded {
 		width: 100%;
+	}
+	.koncep {
+		height: 35vh;
 	}
 }

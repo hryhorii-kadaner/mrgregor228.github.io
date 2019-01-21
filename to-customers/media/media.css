@@ -2,6 +2,10 @@
 	.med-links {
 		display: none;
 	}
+
+	.featurette-image.img-fluid.mx-auto.d-block.vid {
+		height: 40vh;
+	}
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -19,6 +23,9 @@
 		height: 100%;
 	}
 
+	.featurette-image.img-fluid.mx-auto.d-block.vid {
+		height: 40vh;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -97,5 +104,8 @@
 		margin-right: auto;
 		margin-left: auto;
 		align-items: center;
+	}
+	.featurette-image.img-fluid.mx-auto.d-block.vid {
+		height: 35vh;
 	}
 }
