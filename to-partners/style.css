@@ -249,7 +249,19 @@ body {
 	display: none;
 }
 }
+
+.modal.fade.bd-example-modal-lg {
+	z-index: 9999;
+}
+
+#rotated_pic {
+	transition: 1s;
+}
   
+#rotated_pic:hover {
+	transform: rotate(360deg);
+	transition: 1s;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:#FFF;
