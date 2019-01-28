@@ -212,6 +212,14 @@
 	height: 100%;
 }
 
+.col-md-2 a {
+	font-size: 18px;
+	height: 100%;
+	text-align:center;
+	padding:1em;
+}
+
+
 #tick:before {
 	content: ' ✓ ';
 	color: green;
@@ -244,6 +252,25 @@
 
 .sect.sec1.row.justify-content-center.align-items-center.w-100 {
 	margin-left: 0;
+}
+
+.featurette-heading.list-group-item.mx-auto {
+	height: 3em;
+	width: 3em;
+	line-height: 2.2em;
+	text-align: center;
+	padding: 3%;
+	border-radius:50%;
+	border-color: #28a745;
+	color: #28a745;
+	border-width: 2px;
+	border-style: outset;
+	cursor: default;
+}
+
+.btn.btn-outline-success.d-block.mx-auto.mt-3 {
+	min-width: 12em;
+	max-width: 20em;
 }
 /*****************************************footer*****************************************/
 .col_white_amrc { 
