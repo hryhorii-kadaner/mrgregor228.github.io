@@ -279,7 +279,7 @@
 
 .sec1 {
 	background:url(images/city.jpg) no-repeat fixed;
-	background-size:cover;
+	background-size:100% 100%;
 	-o-background-position:center;
 	-moz-background-position:center;
 	-webkit-background-position:center;
