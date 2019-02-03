@@ -233,6 +233,10 @@ iframe {
 #big_dot:before {
 	content: ' • ';
 }
+
+#author {
+	font-size: 18px;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:#FFF;

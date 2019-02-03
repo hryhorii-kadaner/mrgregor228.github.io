@@ -3,6 +3,7 @@
 	<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
@@ -12,6 +13,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="media/media.css">
+
+	<script src="js/wow.min.js"></script>
+	<script>
+       new WOW().init();
+    </script>
 	<title>Coralife | Главная</title>
 	</head>
 	<body>
@@ -67,13 +73,13 @@
         </ul>
     </div>
 			</nav>  
-  			<div class="top_button"><a href="#tooop"><i class="fa fa-angle-up"></i></a></div>
+  			<div class="top_button wow bounceInDown" data-wow-duration=".7s" data-wow-offset="200"><a href="#tooop"><i class="fa fa-angle-up"></i></a></div>
 		</header>
 		
 		<section class="sect sec1">
 		<div class="center_hwords">
-			<h1 class="hwords">Добро пожаловать на сайт Coralife!</h1>
-			<p class="hwords par">Давайте познакомимся!</p>
+			<h1 class="hwords wow fadeInRight" data-wow-duration=".5s">Добро пожаловать на сайт Coralife!</h1>
+			<p class="hwords par wow fadeInLeft" data-wow-duration=".5s">Давайте познакомимся!</p>
 		</div>
 		</section>
 		<div class="fleft container-fluid row justify-content-center align-items-center w-100">
@@ -85,7 +91,7 @@
 
 		<section class="container-fluid sect sec2" id="circles_pannel">
 			<div class="row">				
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="2s" data-wow-offset="500">
 					<div class="serviceBox" id="box1">
 						<div class="service-icon">
 							<i class="fa fa-address-card"></i>
@@ -100,7 +106,7 @@
 					</div>
 				</div>
 
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" id="box2">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="2.4s" data-wow-offset="500" id="box2">
 					<div class="serviceBox">
 						<div class="service-icon">
 							<i class="fa fa-globe"></i>
@@ -115,7 +121,7 @@
 					</div>
 				</div>
 
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" id="box3">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="2.8s" data-wow-offset="500" id="box3">
 					<div class="serviceBox">
 						<div class="service-icon">
 							<i class="fa fa-sitemap"></i>
@@ -130,7 +136,7 @@
 					</div>
 				</div>
 
-				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" id="box4">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="3.2s" data-wow-offset="500" id="box4">
 					<div class="serviceBox list-group">
 						<div class="service-icon">
 							<i class="fa fa-mobile"></i>
@@ -141,7 +147,7 @@
 							</p>
 						</div>
 						<a href="https://ru.coral-club.com/personal/news/" class="read list-group-item" target="_blank">Новости компании</a>
-						<a href="#" class="read list-group-item" target="_blank">Акции и скидки</a>
+						<!--<a href="#" class="read list-group-item" target="_blank">Акции и скидки</a>-->
 						<a href="https://events.coral-club.com/ru/" class="read list-group-item" target="_blank">Мероприятия</a>
 						<a href="https://www.facebook.com/office398/" class="read list-group-item" target="_blank">Расписание встреч в офисе</a>
 						<a href="https://www.youtube.com/channel/UCg9HZZeb-wE-JfTh1lQ285w?view_as=subscriber" class="read list-group-item" target="_blank">Новые видео</a>
@@ -254,7 +260,7 @@
 		<div class="container">
 			<br>
 			<!--foote_bottom_ul_amrc ends here-->
-			<p class="text-center">© Coralife 2018 | Designed With by <a href="#">Gregory Kadaner</a></p>
+			<p class="text-center">© Coralife 2018 | Designed With by <cite id="author">Gregory Kadaner</cite></p>
 
 			<ul class="social_footer_ul">
 				<li><a href="https://www.facebook.com/ekadaner" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -267,6 +273,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/color-text.js"></script>
 <script src="js/smooth_scrolling.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 

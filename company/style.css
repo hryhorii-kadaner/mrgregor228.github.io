@@ -191,12 +191,15 @@ body {
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-ms-background-size: cover;
-	
 }
 
 .sec2 {
 	background-color: #fff;
 	height: 100%;
+}
+
+#author {
+	font-size: 18px;
 }
 /*****************************************footer*****************************************/
 .col_white_amrc { 
