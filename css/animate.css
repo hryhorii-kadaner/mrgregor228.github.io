@@ -3492,3 +3492,15 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+.ani:hover {
+  animation: rubberBand .9s 1 alternate;
+}
+
+.tad:hover {
+  animation: tada .6s 1 alternate;
+}
+
+.pulsed:hover {
+  animation: pulse .4s 1 alternate;
+}
