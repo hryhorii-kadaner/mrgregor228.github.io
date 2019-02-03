@@ -201,7 +201,10 @@ img.figure-img.rounded {
 	color: gray;
 	font-style: italic;
 }
-
+.text-center.abbrr {
+	font-size: inherit;
+	font-weight: 580;
+}
 .text-center {
 	font-family: 'Cormorant', serif;
 	font-size: 30px;
