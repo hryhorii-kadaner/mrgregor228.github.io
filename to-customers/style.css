@@ -276,6 +276,11 @@
 #author {
 	font-size: 18px;
 }
+
+#green-words {
+	color:#28a745; 
+	text-decoration: underline;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:#FFF;
