@@ -278,7 +278,7 @@
 }
 
 .sec1 {
-	background:url(images/city.jpg) no-repeat fixed;
+	background:url(../images/city.jpg) no-repeat fixed;
 	background-size:cover;
 	-o-background-position:center;
 	-moz-background-position:center;
@@ -307,7 +307,7 @@
 	width:250px;
 	height:250px;
 	overflow:hidden;
-	background:url(images/helen2.jpg) no-repeat;
+	background:url(../images/helen2.jpg) no-repeat;
 	transform: rotate(-25deg);
 	background-position:center;
 	background-size:cover;
