@@ -34,12 +34,18 @@
 		display: none;
 		z-index: 0;
 	}
-}
-
-@media screen and (max-width: 768px) {
 	.navbar-nav.mr-auto.dropdown.show {
 		height: 100vh;
 		overflow-y: auto;
+	}
+	.featurette-heading {
+		font-size:3em;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.featurette-heading {
+		font-size:3em;
 	}
 }
 
