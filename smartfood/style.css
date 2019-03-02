@@ -192,13 +192,13 @@
 }
 
 .delicious-coctail {
-	background: url("images/delicious-coctail.png") no-repeat fixed;
+	background: url("images/delicious-coctail.png") no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .tea-sec {
-	background:url("images/slim-by-slim.png") no-repeat fixed;
+	background:url("images/slim-by-slim.png") no-repeat;
 	background-position: center;
 	background-size: cover;
 }
