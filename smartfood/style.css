@@ -192,7 +192,7 @@
 }
 
 .delicious-coctail {
-	background: url("images/delicious-coctail.png") no-repeat;
+	background: url("images/delicious-coctail.png") no-repeat fixed;
 	background-position: center center;
 	background-size: cover;
 }
