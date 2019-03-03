@@ -284,6 +284,7 @@ a:hover {
 .tick-amino {
 	background-color: #efb7ff;
 	color: purple;
+	border-color: purple;
 }
 
 .tick-amino:before {
