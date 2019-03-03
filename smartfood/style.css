@@ -275,10 +275,42 @@ a:hover {
 	background-size:cover;
 }
 
+.amino {
+	background:url("images/amino.jpg") no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+
+.tick-amino {
+	background-color: #efb7ff;
+	color: purple;
+}
+
+.tick-amino:before {
+	content: "✔ ";
+	font-size: 1em;
+	color: purple;
+}
+
+
+
+
 .tick:before {
-	content: "✔";
+	content: "✔ ";
 	font-size: 1em;
 	color: green;
+}
+
+.tick-danger:before {
+	content: "✔ ";
+	font-size: 1em;
+	color: #c60559;
+}
+
+.tick-warning:before {
+	content: "✔ ";
+	font-size: 1em;
+	color:orange;
 }
 
 #author {

@@ -28,7 +28,7 @@
         $('body,html').animate({scrollTop: top}, 1500);
     });
 
-    $(".sec2").on("click","a", function (event) {
+    $(".navigbut").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
