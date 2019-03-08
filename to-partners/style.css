@@ -12,17 +12,6 @@
 	background: #263238;
 }
 
-.navbar-brand {
-	position: relative;
-	width: 200px;
-	top: .2em;
-}
-
-.nav-item .nav-link i {
-	width: 40px;
-	padding-right:.5em;
-	padding-left:.5em;
-}
 .navbar{
   position: fixed;
   top: 0;
@@ -105,6 +94,18 @@
 .nav-item {
 	color: white;
 	text-align: center;
+}
+
+.navbar-brand {
+	position: relative;
+	width: 200px;
+	top: .2em;
+}
+
+.nav-item .nav-link i {
+	width: 40px;
+	padding-right:.5em;
+	padding-left:.5em;
 }
 
 .navbar-toggler {
@@ -207,8 +208,7 @@
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-ms-background-size: cover;
-	filter: blur(0px);
-  -webkit-filter: blur(0px);
+	overflow: hidden;
 }
 
 .sec2 {
