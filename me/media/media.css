@@ -20,7 +20,7 @@
 
 	.top_button i {
 		font-size: 1.5em;
-	
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -30,22 +30,6 @@
 	}
 }
 
-@media screen and (max-width:1158px) and (orientation:landscape) {
-	.top_button {
-		right: 3em;
-		bottom: 3em;
-		width: 3.5em;
-		height: 3.5em;
-	}
-
-	.top_button i {
-		font-size: 1.75em;
-	}
-
-	.sec2 {
-		height: 100%;
-	}
-}
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
 	.sec2 {
@@ -54,6 +38,17 @@
 	.hwords {
 		font-size: 3em;
 		top: 32%;
+	}
+
+	.top_button {
+		right: 2em;
+		bottom: 2em;
+		width: 3em;
+		height: 3em;
+	}
+
+	.top_button i {
+		font-size: 1.5em;
 	}
 
 	.navbar ul ul{ 
@@ -84,17 +79,6 @@
 		display: none;
 	}
 	/*menu*/
-
-	.top_button {
-		right: 2em;
-		bottom: 2em;
-		width: 2.5em;
-		height: 2.5em;
-	}
-
-	.top_button i {
-		font-size: 1.25em;
-	}
 
 	.col-sm-4 img {
 		float: none;
@@ -130,10 +114,10 @@
 	}
 	
 	.top_button {
+		right: 2em;
+		bottom: 2em;
 		width: 2.5em;
 		height: 2.5em;
-		right:1em;
-		bottom:1em;
 	}
 
 	.soc_iiicons {
