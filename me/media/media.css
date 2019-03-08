@@ -20,11 +20,7 @@
 
 	.top_button i {
 		font-size: 1.5em;
-	}
-	.navbar-toggler {
-		position: relative;
-		bottom:.267em;
-	}
+	
 }
 
 @media screen and (max-width: 768px) {
@@ -84,11 +80,6 @@
 		font-size: 30px;
 	}
 
-	.navbar-toggler {
-		position: relative;
-		bottom:.33em;
-	}
-
 	.foto-gal {
 		display: none;
 	}
@@ -137,12 +128,7 @@
 	.sec2 {
 		height: 100%;
 	}
-
-	.navbar-toggler {
-		position: relative;
-		bottom:.25em;
-	}
-
+	
 	.top_button {
 		width: 2.5em;
 		height: 2.5em;

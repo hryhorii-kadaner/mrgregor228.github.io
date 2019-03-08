@@ -79,11 +79,6 @@
 		font-size: 30px;
 	}
 
-	.navbar-toggler {
-		position: relative;
-		bottom:.33em;
-	}
-
     .soc_iiicons {
 		display: none;
 		z-index: 0;

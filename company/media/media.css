@@ -19,10 +19,6 @@
 		font-size: 1.5em;
 	}
 
-	.navbar-toggler {
-		position: relative;
-		bottom:.267em;
-	}
 	.soc_iiicons {
 		display: none;
 		z-index: 0;
@@ -111,11 +107,6 @@
 		font-size: 30px;
 	}
 
-	.navbar-toggler {
-		position: relative;
-		bottom:.33em;
-	}
-
     .soc_iiicons {
 		display: none;
 		z-index: 0;
@@ -187,12 +178,7 @@
     	line-height: 1.5em;
 		font-size: 30px;
 	}
-
-	.navbar-toggler {
-		position: relative;
-		bottom:.33em;
-	}
-
+	
     .soc_iiicons {
 		display: none;
 		z-index: 0;

@@ -13,10 +13,15 @@
 }
 
 .navbar-brand {
-	font-size: 35px;
-	font-weight: 650;
-	color: #fff;
-	font-family: 'Lora', serif;
+	position: relative;
+	width: 200px;
+	top: .2em;
+}
+
+.nav-item .nav-link i {
+	width: 40px;
+	padding-right:.5em;
+	padding-left:.5em;
 }
 .navbar{
   position: fixed;
@@ -97,20 +102,16 @@
     z-index: 9999;
 }
 
-.nav-link i {
-	width: 30px;
-	font-size: 1.5em;
-	color: white;
-}
-
 .nav-item {
 	color: white;
 	text-align: center;
 }
 
 .navbar-toggler {
+	position: relative;
 	border:2px solid white;
-	margin-left: 2em;
+	margin-left: 1em;
+	bottom: 1em;
 }
 
 
