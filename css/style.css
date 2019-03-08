@@ -1,6 +1,7 @@
 .center_hwords {
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .hwords {
@@ -22,10 +23,15 @@
 }
 
 .navbar-brand {
-	font-size: 35px;
-	font-weight: bold;
-	color: #fff;
-	font-family: 'Lora', serif;
+	position: relative;
+	width: 200px;
+	top: .2em;
+}
+
+.nav-item .nav-link i {
+	width: 40px;
+	padding-right:.5em;
+	padding-left:.5em;
 }
 /*Menu*/
 .main-men {
@@ -99,18 +105,15 @@
     z-index: 9999;
 }
 
-.nav-link i {
-	width: 30px;
-	font-size: 1.5em;
-}
-
 .nav-item {
 	text-align: center;
 }
 
 .navbar-toggler {
+	position: relative;
 	border:2px solid white;
-	margin-left: 2em;
+	margin-left: 1em;
+	bottom: 1em;
 }
 
 .navbar-toggler-icon {
@@ -121,6 +124,11 @@
 
 .dropdown-item {
 	padding:.25rem 0 0 0 ;
+}
+
+.dropdown-menu {
+	padding: 0;
+	margin:0;
 }
 
 /*Menu*/
@@ -278,6 +286,7 @@
 }
 
 .sec1 {
+	overflow: hidden;
 	background:url(../images/city.jpg) no-repeat fixed;
 	background-size:cover;
 	-o-background-position:center;
@@ -285,13 +294,15 @@
 	-webkit-background-position:center;
 	-ms-background-position:center;
 	background-position:center;
+	min-height: 100vh;
+
 }
 
 .sec2 {
 	background-color:white;
 	box-shadow:0px 0px 20px black;
-	height: 100vh;
-	padding-bottom: 10em;
+	height: 100%;
+	padding-bottom: 30vh;
 	font-family: 'Lora', serif;
 	font-size: 18px;
 }

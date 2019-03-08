@@ -57,10 +57,6 @@
 		top:150px;
 	}
 
-	.navbar-toggler {
-		position: relative;
-		bottom:.267em;
-	}
 	.soc_iiicons {
 		display: none;
 		z-index: 0;
@@ -118,11 +114,6 @@
 		font-size: 30px;
 	}
 
-	.navbar-toggler {
-		position: relative;
-		bottom:.33em;
-	}
-
     .soc_iiicons {
 		display: none;
 		z-index: 0;
@@ -140,6 +131,7 @@
 
 	.sec2 {
 		height: 100%;
+		padding-bottom: 3vh;
 	}
 
 	.serviceBox {
@@ -173,6 +165,7 @@
 	}
 	.sec2 {
 		height:100%;
+		padding-bottom: 3vh;
 	}
 	.col-xs-6 , .col-md-4 {
 		background-color: white;
@@ -219,11 +212,7 @@
 
 	.sec2 {
 		height: 100%;
-	}
-
-	.navbar-toggler {
-		position: relative;
-		bottom:.25em;
+		padding-bottom: 3vh;
 	}
 
 	.top_button {
