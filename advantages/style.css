@@ -5,8 +5,8 @@
 
 .navbar-brand {
 	position: relative;
-	width: 200px;
-	top: .2em;
+	width: 220px;
+	top: .33em;
 }
 
 .nav-item .nav-link i {
@@ -93,8 +93,8 @@
 .navbar-toggler {
 	position: relative;
 	border:2px solid white;
-	margin-left: 1em;
-	bottom: 1em;
+	margin-left: 0;
+	bottom: .66em;
 }
 
 .navbar-toggler-icon {
