@@ -7,12 +7,10 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
 	.hwords {
 		font-size: 3em;
-		top: 36%;
 	}
 
 	.par {
 		font-size: 1.5em;
-		top: 55%;
 	}
 
 	.sec2 {
@@ -32,14 +30,13 @@
 	.sec2 {
 		height: 100%;
 	}
+
 	.hwords {
 		font-size: 2em;
-		top: 40%;
 	}
 
 	.par {
 		font-size: 1.2em;
-		top:54%;
 	}
 
 	.navbar ul ul{ 
@@ -77,14 +74,36 @@
 	/*menu*/
 
 	.top_button {
-		right: 1em;
-		bottom: 1em;
+		right: 1.5em;
+		bottom: 1.5em;
 		width: 2.5em;
 		height: 2.5em;
 	}
 
 	.top_button i {
 		font-size: 1.25em;
+	}
+
+	.test_button.left_button {
+		left: 1.5em;
+		bottom: 1.5em;
+		width: 2.5em;
+		height: 2.5em;
+		transition: .5s;
+	}
+
+	.test_button.left_button:hover, .test_button.left_button:hover > a {
+		left: 2em;
+		bottom: 2em;
+		width: 3.5em;
+		height: 3.5em;
+		font-size: .8em;
+		transition: .5s;
+	}
+
+	.test_button.left_button a {
+		font-size: .6em;
+		transition: .5s;
 	}
 
 	.col-sm-4 img {
