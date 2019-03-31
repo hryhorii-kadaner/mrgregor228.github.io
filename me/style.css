@@ -182,15 +182,11 @@ img.figure-img.rounded {
 	overflow: hidden;
 }
 
-.blockquote {
-	border-left: 3px solid rgba(192, 192, 192 , 0.8)
-}
-
-.blockquote p {
+.helen-kad p {
 	padding:1.5em;
 }
 
-.blockquote ul li:before {
+.tick li:before {
 	content: '✦ ';
 }
 
@@ -217,10 +213,9 @@ img.figure-img.rounded {
 	font-size: 16px;
 }
 
-blockquote.list-group-item {
-	border-right: none;
-	border-left: none;
-	border-width: 3px;
+.list-group-item {
+	font-family: "Lora", cursive;
+	font-size: 18px;
 }
 
 .sec1 {
