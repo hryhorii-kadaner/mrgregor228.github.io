@@ -204,6 +204,54 @@ body {
 #author {
 	font-size: 18px;
 }
+
+.mailto_link, .mailto_link a {
+	text-decoration: none;
+	color:white;
+	transition:.5s;
+}
+
+.mailto_link:hover, .mailto_link a:hover {
+	color:red;
+	text-decoration: unset;
+	transition:.5s;
+}
+
+.teleg_link, .teleg_link a {
+	text-decoration: none;
+	color:white;
+	transition:.5s;
+}
+
+.teleg_link:hover, .teleg_link a:hover {
+	color: #0088CC;
+	text-decoration: unset;
+	transition:.5s;
+}
+
+.viber_link, .viber_link a {
+	text-decoration: none;
+	color:white;
+	transition:.5s;
+}
+
+.viber_link:hover, .viber_link a:hover {
+	color: #675CA8;
+	text-decoration: unset;
+	transition:.5s;
+}
+
+.skype_link, .skype_link a {
+	text-decoration: none;
+	color:white;
+	transition:.5s;
+}
+
+.skype_link:hover, .skype_link a:hover {
+	color: #00AFF0;
+	text-decoration: unset;
+	transition:.5s;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:#FFF;
