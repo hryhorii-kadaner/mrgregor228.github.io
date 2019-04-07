@@ -318,7 +318,6 @@
 	height:250px;
 	overflow:hidden;
 	background:url(../images/helen2.jpg) no-repeat;
-	transform: rotate(-25deg);
 	background-position:center;
 	background-size:cover;
 	box-shadow:0 0 20px black;
