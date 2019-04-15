@@ -7,10 +7,30 @@
 	font-size: 23px;
 }
 
+.timer {
+	position: relative;
+	display: inline-flex;
+}
+
+.d-flex.mx-auto.timer {
+	position: relative;
+	width: 200px;
+	color: red;
+}
+
+.rreed {
+	color: red;
+}
+
+.date {
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "Lora", cursive;
+}
+
 .center_hwords {
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 .hwords {
