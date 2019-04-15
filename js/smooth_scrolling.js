@@ -35,3 +35,5 @@
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
+
+$('#myModal').modal('show');
