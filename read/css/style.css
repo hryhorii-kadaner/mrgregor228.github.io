@@ -1,0 +1,20 @@
+body {
+	background: rgba(0,0,0, 0.8);
+}
+.sect {
+	height:100%;
+}
+
+.sec1 {
+	overflow-x: hidden;
+}
+
+.modal {
+	font-family: "Lora", cursive;
+}
+
+.modal-title {
+	font-family: "Lora", cursive;
+	font-size: 19px;
+	font-weight: bold;
+}
