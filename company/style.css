@@ -252,6 +252,49 @@ body {
 	text-decoration: unset;
 	transition:.5s;
 }
+
+.elem {
+	display:inline-block;
+}
+
+.elem li {
+	font-size: 18px;
+	font-family: "lora", sans-serif; 
+}
+
+.num {
+	font-family: "Lora", cursive;
+	font-size: 25px;
+	color: red;
+	font-weight: bold;
+}
+
+.or {
+	color: #eb6425;
+}
+
+.pur {
+	color: purple;
+}
+
+.gre {
+	color: #66af20;
+}
+
+.bir {
+	color: #43b7ba;
+}
+
+.sky {
+	color: violet;
+}
+
+.bl {
+	color: blue;
+}
+.gol {
+	color: #FFBF00;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:#FFF;
