@@ -70,7 +70,7 @@ $({numberValue: currentNumber}).animate({numberValue: 288}, {
 
 var currentNumber = $('#dynamic-number8').text();
 
-$({numberValue: currentNumber}).animate({numberValue: 2505}, {
+$({numberValue: currentNumber}).animate({numberValue: 2500}, {
     duration: 6000,
     easing: 'linear',
     step: function() { 
