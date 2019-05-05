@@ -229,6 +229,7 @@
 	list-style-type: none;
 	color: white;
 	padding: .75em;
+	cursor: pointer;
 	transition: .5s;
 }
 
@@ -365,6 +366,15 @@
 	color: #00AFF0;
 	text-decoration: unset;
 	transition:.5s;
+}
+
+.modal.fade.bd-example-modal-lg5 {
+	height: 100%;
+	z-index: 99999;
+}
+
+.vhhh {
+	height: 90vh!important;
 }
 /*****************************************footer*****************************************/
 .col_white_amrc { 

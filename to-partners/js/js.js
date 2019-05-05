@@ -11,6 +11,3 @@ $(window).scroll(function() {
   }
 });
 
-document.getElementById("tesst").onclick = function () {
-    location.href = "../to-partners/test.zip";
-};
