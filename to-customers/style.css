@@ -62,7 +62,10 @@
 }
 
 .central-button {
-	padding: 1.5em;
+	font-family: "Comfortaa", sans-serif;
+	font-weight: bold;
+	font-size:1.25em;
+	padding: 1.25em;
 	max-width: 320px;
 	border-radius:0px;
 	transition: .5s;
