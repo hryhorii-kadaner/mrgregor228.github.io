@@ -33,14 +33,14 @@
 		height: 40vh;
 	}
 
-	.top_button.wow.bounceInDown {
+	.top_button {
 		right: 3em;
 		bottom: 3em;
 		width: 2.75em;
 		height: 2.75em;
 	}
 
-	.top_button.wow.bounceInDown i {
+	.top_button i {
 		font-size: 1.33em;
 	}
 }
