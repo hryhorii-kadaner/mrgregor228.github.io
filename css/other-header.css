@@ -1,3 +1,17 @@
+/*******Comfortaa*******/
+@font-face {
+	font-family: "Comfortaa";
+	src: url("font/Comfortaa.ttf") format("truetype");
+}
+/*******Comfortaa*******/
+
+/*******Lora*******/
+@font-face {
+	font-family: "Lora";
+	src: url("font/Lora.ttf") format("truetype");
+}
+/*******Lora*******/
+
 .active {
 	color: red!important;
 	background-color: unset!important;
