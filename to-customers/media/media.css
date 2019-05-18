@@ -34,14 +34,14 @@
 	}
 
 	.top_button {
-		right: 3em;
-		bottom: 3em;
-		width: 2.75em;
-		height: 2.75em;
+		right: 2.5em;
+		bottom: 2.5em;
+		width: 3em;
+		height: 3em;
 	}
 
 	.top_button i {
-		font-size: 1.33em;
+		font-size: 1.5em;
 	}
 }
 
@@ -100,15 +100,15 @@
 	}
 	/*menu*/
 
-	.top_button.wow.bounceInDown {
-		right: 3em;
-		bottom: 3em;
-		width: 2em;
-		height: 2em;
+	.top_button {
+		right: 1em;
+		bottom: 1em;
+		width: 2.5em;
+		height: 2.5em;
 	}
 
-	.top_button.wow.bounceInDown i {
-		font-size: 1em;
+	.top_button i {
+		font-size: 1.25em;
 	}
 
 	.col-sm-4 img {
