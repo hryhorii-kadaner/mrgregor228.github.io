@@ -1,110 +1,5 @@
-/*************************Menu*************************/
 .navbar {
-	padding: 0;
-}
-
-.navbar-brand {
-	position: relative;
-	width: 220px;
-	top: .33em;
-}
-
-.nav-item .nav-link i {
-	width: 40px;
-	padding-right:.5em;
-	padding-left:.5em;
-}
-/*Menu*/
-.main-men {
-	text-shadow: 0 0 10px white;
-	background: rgba(255,255,255, 0.2)
-}
-
-.navbar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #263238;
-  box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
-  z-index: 9999;
-}
-
-  .navbar ul{
-    list-style: none;
-    position: relative;
-    text-align: center;
-  }
-.navbar ul li{
-  	float: left;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    background-color: #263238;
-    font-weight: 500;
-}
-
-.navbar ul li:hover{
-    background: rgba(0,0,0,.15);
-}
-
-.navbar ul li a{
-    display: block; 
-	padding: 30px 20px;
-	color: #fff; 
-	font-size: 1.2em;
-	letter-spacing: 1px;
-	font-family: 'Lora', serif;
-	text-decoration: none;
-	transition: .5s;
-	width: 100%;
-	z-index: 1;
-}
-.navbar ul ul{
-	position: absolute; 
-	display:none;
-	background: rgba(26,32,28, 0.9);
-}
-
-.navbar ul ul li{
-	float: none; 
-}
-
-.navbar ul ul li a {
-	padding: 15px 30px; 
-	border-bottom: 1px solid rgba(0,0,0,.05);
-}
-
-.navbar ul ul ul {
-	position: relative; 
-	top:0;
-}
-
-.navbar ul li ul{
-    transition:.6s;
-    min-width: 1px;
-    z-index: 9999;
-}
-
-.nav-item {
-	text-align: center;
-}
-
-.navbar-toggler {
-	position: relative;
-	border:2px solid white;
-	margin-left: 0;
-	bottom: .66em;
-}
-
-.navbar-toggler-icon {
-	color: white;
-	line-height: 1.5em;
-	width: 100%;
-}
-
-.dropdown-item {
-	padding:.25rem 0 0 0 ;
+	background-color: white!important;
 }
 
 .top_button {
@@ -179,7 +74,6 @@
 }
 
 .sec1 {
-	margin-top: 7vh;
 	height: 70vh;
 	background:url('images/fon.jpg') no-repeat;
 	background-position: bottom;
@@ -194,12 +88,12 @@
 .pict {
 	text-align: center;
 	width: 5em;
-	background: green;
+	background: darkred;
 	overflow: hidden;
 	color: white;
 	border-radius: 50%;
 	height: 5em;
-	border:3.5px outset yellow;
+	border:3.5px outset red;
 }
 
 .pict h1 {
@@ -219,7 +113,7 @@ iframe {
 }
 #tick:before {
 	content: ' ✓ ';
-	color: green;
+	color: red;
 	font-size: 22px;
 	font-weight: bold;
 }

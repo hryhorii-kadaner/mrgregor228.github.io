@@ -37,3 +37,10 @@
 });
 
 $('#myModal').modal('show');
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar , .navbar ul li , .navabr ul li a");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});

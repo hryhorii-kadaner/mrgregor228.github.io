@@ -43,3 +43,17 @@ table {
 	border-spacing: 0;
 }
 /***************************************reset css***************************************/
+
+/*******Comfortaa*******/
+@font-face {
+	font-family: "Comfortaa";
+	src: url("font/Comfortaa.ttf") format("truetype");
+}
+/*******Comfortaa*******/
+
+/*******Lora*******/
+@font-face {
+	font-family: "Lora";
+	src: url("font/Lora.ttf") format("truetype");
+}
+/*******Lora*******/

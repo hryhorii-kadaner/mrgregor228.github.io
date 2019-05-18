@@ -1,0 +1,97 @@
+.active {
+	color: red!important;
+	background-color: unset!important;
+}
+
+@media screen and (max-width: 1074px) {
+	.navbar .collapse ul li a {
+		font-size: 16px;
+	}
+}
+
+.fav {
+	width: 28px;
+}
+.animat:hover {
+	animation: rubberBand .9s 1 alternate;
+}
+
+.nav-item .nav-link i {
+	width: 40px;
+	padding-right:.5em;
+	padding-left:.5em;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: none;
+  font-size: 20px;
+  z-index: 9999;
+  transition: background-color 200ms linear;
+  transition: .6s;
+}
+
+.navbar-brand {
+	position: relative;
+	font-family: "Comfortaa" , sans-serif;
+	top: 0;
+	width: 150px;
+	color: red;
+}
+
+.navbar-brand p {
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+
+.navbar {
+	color: black;
+	font-family: "Comfortaa", sans-serif;
+	font-size: 18px;
+	transition: .4s;
+}
+
+.dropdown-menu {
+	max-width: 320px; 
+	word-wrap: break-word;
+}
+
+.navbar.scrolled {
+  box-shadow: 0 3px 10px -2px #6f656e;
+  background-color: #fff!important;
+  color: white;
+  transition: background-color 200ms linear;
+}
+
+.navbar:hover {
+	background-color: white;
+}
+
+.navbar .collapse.navbar-collapse ul li a {
+	color: black;
+	transition: .6s;
+}
+
+.navbar .collapse.navbar-collapse ul li a:hover {
+	color: red;
+	transition: .5s;
+}
+
+.navbar.scrolled .collapse ul li a, .scrolled .navbar-brand {
+	color: black;
+	transition: .2s;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: 1px solid white
+}
+.navbar.scrolled .collapse ul li a:hover {
+	color: red;
+}
+.special {
+	z-index: -1;
+}
+/*Menu*/
