@@ -101,3 +101,38 @@
 .navbar.scrolled .collapse ul li a:hover {
 	color: red;
 }
+
+.top_button {
+	position: fixed;
+	text-align: center;
+	right: 5em;
+	bottom: 5em;
+	border:2px solid red;
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+	overflow: hidden;
+	transition: .5s;
+	z-index: 9999;
+}
+
+.top_button:hover {
+	border-color: red;
+	transition:.5s;
+	box-shadow: 0 0 25px red;
+}
+
+.top_button i {
+	height: 100%;
+	width: 100%;
+	font-size: 2.5em;
+	color: red;
+	padding-top: .4em;
+	z-index: 9999;
+	transition:.5s;
+}
+
+.top_button i:hover {
+	color: red;
+	transition:.5s;
+}
