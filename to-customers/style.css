@@ -52,13 +52,32 @@
 .hwords {
 	top: 38%;
 	text-align:center;
-	color:#fff;
+	color:red;
 	font-size:3.5em;
-	font-family: 'Cormorant', serif;
-	font-weight:bold;
-	text-shadow:0 0px 7px black, 0 0px 7px black, 0 0px 7px black, 0 0px 7px black;
+	font-family: 'Comfortaa', serif;
+	font-weight: bold;
+	line-height: 1.25em;
 	transition: 2s;
 	z-index:2;
+}
+
+.central-button {
+	padding: 1.5em;
+	max-width: 320px;
+	border-radius:0px;
+	transition: .5s;
+}
+
+@media screen and (max-width: 992px) {
+	.central-button {
+		max-width: 250px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.central-button {
+		max-width: 170px;
+	}
 }
 
 .par {

@@ -32,6 +32,17 @@
 	.featurette-image.img-fluid.mx-auto.d-block.vid {
 		height: 40vh;
 	}
+
+	.top_button.wow.bounceInDown {
+		right: 3em;
+		bottom: 3em;
+		width: 2.75em;
+		height: 2.75em;
+	}
+
+	.top_button.wow.bounceInDown i {
+		font-size: 1.33em;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -89,15 +100,15 @@
 	}
 	/*menu*/
 
-	.top_button {
-		right: 1em;
-		bottom: 1em;
-		width: 2.5em;
-		height: 2.5em;
+	.top_button.wow.bounceInDown {
+		right: 3em;
+		bottom: 3em;
+		width: 2em;
+		height: 2em;
 	}
 
-	.top_button i {
-		font-size: 1.25em;
+	.top_button.wow.bounceInDown i {
+		font-size: 1em;
 	}
 
 	.col-sm-4 img {
