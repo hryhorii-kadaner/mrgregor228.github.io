@@ -6,9 +6,29 @@ html, body {
 	z-index: 99999;
 }
 
+.modal-content i {
+	color: white;
+}
+
+.ref-link:hover {
+	color: red;
+}
+
+.modal-content {
+	background:url("../images/mod.png") repeat;
+	background-size: 100%;
+}
+
 .modal-title {
-	font-weight: bold;
-	font-size: 23px;
+	font-weight: normal;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-family: "Abys", sans-serif;
+	color: #dc3546;
+}
+.red-bg {
+	background-color: #dc3546;
+	padding: 2em;
 }
 
 .timer {
@@ -23,7 +43,10 @@ html, body {
 }
 
 .rreed {
-	color: red;
+	font-family: "Lora", cursive;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
 }
 
 .date {

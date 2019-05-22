@@ -1,3 +1,56 @@
+.modal {
+	z-index: 99999;
+}
+
+.modal-content i {
+	color: white;
+}
+
+.ref-link:hover {
+	color: red;
+}
+
+.modal-content {
+	background:url("../images/mod.png") repeat;
+	background-size: 100%;
+}
+
+.modal-title {
+	font-weight: normal;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-family: "Abys", sans-serif;
+	color: #dc3546;
+}
+.red-bg {
+	background-color: #dc3546;
+	padding: 2em;
+}
+
+.timer {
+	position: relative;
+	display: inline-flex;
+}
+
+.d-flex.mx-auto.timer {
+	position: relative;
+	width: 200px;
+	color: red;
+}
+
+.rreed {
+	font-family: "Lora", cursive;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+}
+
+.date {
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "Lora", cursive;
+}
+
 .navbar {
 	background-color:white!important;
 }
@@ -13,7 +66,7 @@
 	height: 5em;
 	overflow: hidden;
 	transition: .5s;
-	z-index: 9999;
+	z-index: 999;
 }
 
 .top_button:hover {
