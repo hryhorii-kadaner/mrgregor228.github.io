@@ -14,6 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="../css/header.css">
 	<link rel="stylesheet" type="text/css" href="media/media.css">
 
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
 	<script src="../js/wow.min.js"></script>
 	<script>
        new WOW().init();
@@ -160,18 +163,20 @@
 
 	         	<!-- Modal -->
 
-			<div class="modal fade ип-вфтпук" tabindex="-1" role="dialog" id="myModal">
+			<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
 			  <div class="modal-dialog" role="document">
 			    <div class="modal-content">
-			      <div class="modal-header bg-danger">
+			      <div class="modal-header bg-success">
 			        <i class="fas fa-times ml-auto btn" data-dismiss="modal"></i>
 			        
 			      </div>
 			      <div class="modal-body text-center">
-			        <h1 class="modal-title text-center d-block mx-auto">Май 2019</h1>
+			        <h1 class="modal-title text-center d-block mx-auto">Июнь 2019</h1>
 			        <br>
-			        <img src="images/screen1.jpg" class="w-100">
-			        <img src="images/screen2.jpg" class="w-100">
+
+			        <a data-fancybox="gallery" href="images/screen1.jpg" style="z-index: 99999;">
+			        	<img src="images/screen1.jpg" class="w-100">
+			        </a>
 
 			        <h1 class="modal-title text-center d-block mx-auto">Акции и скидки!</h1>
 
@@ -180,7 +185,7 @@
 			        <div class="d-block w-100 mx-auto red-bg">
 			        	<p class="rreed">До окончания скидок осталось</p>
 				        <br>
-				        <div class="alert alert-danger d-flex mx-auto timer">
+				        <div class="alert alert-success d-flex mx-auto timer">
 
 				        	<div class="date" id="days"></div><span>&nbsp;д</span>&nbsp;
 					        	
@@ -197,7 +202,7 @@
 			        <hr class="text-slicer">
 			        
 			      </div>
-			      <div class="modal-footer bg-danger">
+			      <div class="modal-footer bg-success">
 			        <a class="btn btn-outline-light text-center d-block mx-auto ref-link" href="https://ru.coral-club.com/registration/?REF_CODE=140947148014">Получить скидку!</a>
 			      </div>
 			    </div>
@@ -288,5 +293,7 @@
 <script src="../js/color-text.js"></script>
 <script type="text/javascript" src="../js/smooth_scrolling.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
 	</body>
 </html>

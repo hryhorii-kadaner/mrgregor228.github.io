@@ -1,5 +1,5 @@
 .modal {
-	z-index: 99999;
+	z-index: 9999;
 }
 
 .modal-content i {
@@ -7,23 +7,23 @@
 }
 
 .ref-link:hover {
-	color: red;
+	color: green;
 }
 
 .modal-content {
-	background:url("../images/mod.png") repeat;
-	background-size: 100%;
+	background:url("../images/mod.png") no-repeat;
+	background-size: cover;
 }
 
 .modal-title {
 	font-weight: normal;
 	font-size: 50px;
 	letter-spacing: 2px;
-	font-family: "Abys", sans-serif;
-	color: #dc3546;
+	font-family: "Veles", sans-serif;
+	color: #27a844;
 }
 .red-bg {
-	background-color: #dc3546;
+	background-color: #27a844;
 	padding: 2em;
 }
 
@@ -35,7 +35,7 @@
 .d-flex.mx-auto.timer {
 	position: relative;
 	width: 200px;
-	color: red;
+	color: green;
 }
 
 .rreed {
