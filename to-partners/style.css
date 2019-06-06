@@ -251,6 +251,10 @@
 .vhhh {
 	height: 90vh!important;
 }
+
+.vid {
+	height: 35vh;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:#FFF;

@@ -60,42 +60,6 @@
 	background-color:white!important;
 }
 
-.top_button {
-	position: fixed;
-	text-align: center;
-	right: 5em;
-	bottom: 5em;
-	border:2px solid lightgray;
-	border-radius: 50%;
-	width: 5em;
-	height: 5em;
-	overflow: hidden;
-	transition: .5s;
-	z-index: 999;
-}
-
-.top_button:hover {
-	background-color: rgba(192,192,192, 0.6);
-	border-color: white;
-	transition:.5s;
-	box-shadow: 0 0 20px black;
-}
-
-.top_button i {
-	height: 100%;
-	width: 100%;
-	font-size: 2.5em;
-	color: lightgray;
-	padding-top: .4em;
-	z-index: 9999;
-	transition:.5s;
-}
-
-.top_button i:hover {
-	color: #fff;
-	transition:.5s;
-}
-
 .featurette-heading {
 	text-align: center;
 	font-size: 30px;
@@ -182,29 +146,6 @@
 	color: red;
 	font-size: 22px;
 	font-weight: bold;
-}
-
-.carousel , .carousel-item {
-	height: 100vh;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-	height: 3em;
-	width: 3em;
-}
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%25f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%25f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-@media screen and (max-width: 1158px) {
-	.carousel , .carousel-item {
-	display: none;
-}
 }
 
 .sect.sec1.row.justify-content-center.align-items-center.w-100 {
