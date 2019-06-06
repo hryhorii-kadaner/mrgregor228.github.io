@@ -4,41 +4,6 @@ body {
 	background-size:cover;
 }
 /*************************Menu*************************/
-.top_button {
-	position: fixed;
-	text-align: center;
-	right: 5em;
-	bottom: 5em;
-	border:2px solid lightgray;
-	border-radius: 50%;
-	width: 5em;
-	height: 5em;
-	overflow: hidden;
-	transition: .5s;
-	z-index: 9999;
-}
-
-.top_button:hover {
-	background-color: rgba(192,192,192, 0.6);
-	border-color: white;
-	transition:.5s;
-	box-shadow: 0 0 20px black;
-}
-
-.top_button i {
-	height: 100%;
-	width: 100%;
-	font-size: 2.5em;
-	color: lightgray;
-	padding-top: .4em;
-	z-index: 9999;
-	transition:.5s;
-}
-
-.top_button i:hover {
-	color: #fff;
-	transition:.5s;
-}
 
 .featurette-heading {
 	text-align: center;
@@ -185,6 +150,13 @@ body {
 }
 .gol {
 	color: #FFBF00;
+}
+
+figcaption.list-group-item {
+	font-family: "Lora", cursive;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
 }
 /*****************************************footer*****************************************/
 .col_white_amrc { 

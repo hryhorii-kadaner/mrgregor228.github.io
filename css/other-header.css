@@ -131,9 +131,9 @@
 }
 
 .top_button:hover {
+	background-color: red;
 	border-color: red;
 	transition:.5s;
-	box-shadow: 0 0 25px red;
 }
 
 .top_button i {
@@ -147,6 +147,6 @@
 }
 
 .top_button i:hover {
-	color: red;
+	color: white;
 	transition:.5s;
 }
