@@ -286,6 +286,10 @@
 	text-decoration: unset;
 	transition:.5s;
 }
+
+.w12 {
+	max-width: 12em;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	color:#FFF;
