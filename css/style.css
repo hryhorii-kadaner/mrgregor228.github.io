@@ -1,40 +1,10 @@
 html, body {
 	overflow-x: hidden;
 }
-/*
+
 .modal {
 	z-index: 99999;
 }
-
-.modal-content i {
-	color: white;
-}
-
-.ref-link:hover {
-	color: green;
-}
-
-.modal-content {
-	background:url("../images/mod.png") no-repeat;
-	background-size: 100%;
-}
-
-.modal-title {
-	font-weight: normal;
-	font-size: 50px;
-	letter-spacing: 2px;
-	font-family: "Veles", sans-serif;
-	color: darkgreen;
-}
-.red-bg {
-	background-color: #dc3546;
-	padding: 2em;
-}
-
-.timer {
-	position: relative;
-	display: inline-flex;
-}*/
 
 .d-flex.mx-auto.timer {
 	position: relative;
@@ -415,6 +385,10 @@ html, body {
 	margin-top: 3em;
 	animation: none;
 	width: 10em;
+}
+
+.pay-width {
+	max-width: 12em;
 }
 /*****************************************footer*****************************************/
 .col_white_amrc { 
