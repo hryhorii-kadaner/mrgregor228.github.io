@@ -136,7 +136,7 @@ header {
     box-shadow: 0 0 1px #ccc;
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: linear;
-    box-shadow:0px 0 0 #e04444  inset;
+    box-shadow:0px 0 0 #e04444 inset, 0 0 0 2px lightgray;
     transition:.5s linear;
 }
 
@@ -151,37 +151,40 @@ header {
     box-shadow: 0 0 1px #ccc;
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: linear;
-    box-shadow:0px 0 0 #e04444  inset;
+    box-shadow:0px 0 0 #e04444 inset, 0 0 0 2px lightgray;
     transition:.5s linear;
 }
 
 .calendar-num-mini:hover, .calendar-num-mini:focus {
     color:white;
-    box-shadow:100px 0 0 #e04444 inset;
+    box-shadow:100px 0 0 #e04444 inset, 0 0 0 2px lightgray;
+    border:1px solid red;
     transition:.5s linear;
 }
 
 .calendar-num:hover, .calendar-num:focus {
     color:white;
-    box-shadow:100px 0 0 #e04444 inset;
-
+    box-shadow:100px 0 0 #e04444 inset, 0 0 0 2px lightgray;
+    border:1px solid red;
     transition:.5s linear;
 }
 
 .active {
     color:white;
-    box-shadow:100px 0 0 #e04444 inset;
+    box-shadow:100px 0 0 #e04444 inset, 0 0 0 2px lightgray;
     transition:.5s linear;
 }
 
 .iframe-calendar {
     height:90vh;
+    overflow: auto
 }
 
 .expired {
     background:gray;
     color:white;
     pointer-events: none;
+    box-shadow: 0 0 0 2px lightgray;
 }
 
 .expired:hover, .expired:focus {
