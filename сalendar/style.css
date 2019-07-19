@@ -51,18 +51,28 @@ a {
     list-style-type:none!important;
 }
 /*Reset CSS*/
-
+html {
+    background:#fcfcfc;
+}
 header {
     background:#e04444;
-    height:100px;
     text-align:center;
     color:white;
 }
 
 .heading {
-    font-family:'Garamond', sans-serif;
+    font-family:'Old Standard TT', sans-serif;
     font-size:35px;
-    line-height:2.66;
+    padding:1em;
+    transition: .3s linear;
+}
+
+@media screen and (max-width: 576px) {
+    .heading {
+        overflow-wrap: break-word;
+        font-size:25px;
+        padding:.5em;
+    }
 }
 
 .sec1 {
@@ -93,10 +103,28 @@ header {
 }
 
 .tg-kt03 , .tg-i6c6 {
-     font-family: 'Old Standard TT', serif;
+    font-family: 'Old Standard TT', serif;
     padding:10px 10px 10px 10px;
     line-height:2;
-    
+    transition: .3s linear;
+}
+
+@media screen and (max-width: 576px) {
+    .tg-kt03 , .tg-i6c6 {
+        font-family: 'Old Standard TT', serif;
+        padding:5px;
+        line-height:2;
+        
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .tg-kt03 , .tg-i6c6 {
+        font-family: 'Old Standard TT', serif;
+        padding:3px;
+        line-height:2;
+        
+    }
 }
 .calendar-num {
     color:black;
