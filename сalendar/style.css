@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://coralife.cf/css/font/Comfortaa.ttf');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    text-decoration:none!important;
+    list-style-type:none!important;
+}
+/*Reset CSS*/
+
+header {
+    background:#e04444;
+    height:100px;
+    text-align:center;
+    color:white;
+}
+
+.heading {
+    font-family:'Garamond', sans-serif;
+    font-size:35px;
+    line-height:2.66;
+}
+
+.sec1 {
+    background:#fcfcfc;
+    height:100%;
+    width:100%;
+}
+
+.calendar-heading {
+    font-family: 'Old Standard TT', serif;
+    font-size:35px;
+    font-weight:bold;
+    line-height:2.66;
+}
+
+.row {
+    margin:0px!important;
+}
+
+.calendar {
+    text-align:center;
+    max-width:100%;
+    min-width:320px;
+}
+
+.head-of-calendar {
+    border:1px solid black;
+}
+
+.tg-kt03 , .tg-i6c6 {
+     font-family: 'Old Standard TT', serif;
+    padding:10px 10px 10px 10px;
+    line-height:2;
+    
+}
+.calendar-num {
+    color:black;
+    font-family:"Old Standard TT", sans-serif;
+    font-weight:bold;
+    position:relative;
+    padding:.5em;
+    /*border-radius:50px!important;*/
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #e04444  inset;
+    transition:.5s linear;
+}
+
+.calendar-num-mini {
+    list-style-type:none;
+    position:relative;
+    padding:.5em .75em;
+    color:black;
+    font-family:"Old Standard TT", sans-serif;
+    font-weight:bold;
+    /*border-radius:50px!important;*/
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #e04444  inset;
+    transition:.5s linear;
+}
+
+.calendar-num-mini:hover, .calendar-num-mini:focus {
+    color:white;
+    box-shadow:100px 0 0 #e04444 inset;
+    transition:.5s linear;
+}
+
+.calendar-num:hover, .calendar-num:focus {
+    color:white;
+    box-shadow:100px 0 0 #e04444 inset;
+
+    transition:.5s linear;
+}
+
+.active {
+    color:white;
+    box-shadow:100px 0 0 #e04444 inset;
+    transition:.5s linear;
+}
+
+.iframe-calendar {
+    height:90vh;
+}
+
+.expired {
+    background:gray;
+    color:white;
+    pointer-events: none;
+}
+
+.expired:hover, .expired:focus {
+    box-shadow: unset;
+}
+
+@media screen and (max-width:576px) {
+    .calendar {
+        text-align:center;
+        max-width:320px!important;
+    }
+}
