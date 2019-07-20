@@ -6,6 +6,7 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="style.css">
       <script src="js.js"></script>
+      <script src="timeout.js"></script>
 		<title>Электронная очередь</title>
 	</head>
 	<body>
@@ -38,44 +39,44 @@
                         <th class="tg-kt03">Вс</th>
                       </tr>
                       <tr>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">1</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">2</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">3</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">4</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">5</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">6</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">7</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">1</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">2</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">3</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">4</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">5</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">6</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">7</button></td>
                       </tr>
                       <tr>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">8</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini expired" href="#" data-toggle="modal" data-target="#exampleModal">9</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">10</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">11</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">12</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">13</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">14</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">8</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num-mini num expired" href="#" data-toggle="modal" data-target="#exampleModal">9</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">10</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">11</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">12</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">13</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">14</button></td>
                       </tr>
                       <tr>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">15</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">16</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">17</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">18</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num expired" href="#" data-toggle="modal" data-target="#exampleModal">19</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="Сегодня 20 июля. День свободен!"><button class="btn calendar-num active" href="#" data-toggle="modal" data-target="#exampleModal">20</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">21</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">15</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">16</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">17</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">18</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">19</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Выбирете другой день"><button class="btn calendar-num num expired" href="#" data-toggle="modal" data-target="#exampleModal">20</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="Сегодня 21 июля. День свободен!"><button class="btn calendar-num active" href="#" data-toggle="modal" data-target="#exampleModal">21</button></td>
                       </tr>
                       <tr>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">22</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">23</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">24</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">25</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">26</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">27</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">28</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">22</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">23</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">24</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">25</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">26</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">27</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">28</button></td>
                       </tr>
                       <tr>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">29</button></td>
-                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num" href="#" data-toggle="modal" data-target="#exampleModal">30</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">29</button></td>
+                        <td class="tg-i6c6" data-toggle="tooltip" title="День свободен!"><button class="btn calendar-num num" href="#" data-toggle="modal" data-target="#exampleModal">30</button></td>
                       </tr>
                       <tr>
                       </tr>
