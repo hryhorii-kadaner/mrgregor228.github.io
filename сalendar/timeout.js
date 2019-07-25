@@ -7,5 +7,7 @@ for (i = 0; i < btns.length; i++) {
   console.log(parseInt(btn.textContent,10)<new Date().getDate())
   if (parseInt(btn.textContent,10)<new Date().getDate()){
     btn.classList.add("expired");
+  } else if (parseInt(btn.textContent,10) == new Date().getDate()){
+    btn.classList.add("active");
   }
 }
