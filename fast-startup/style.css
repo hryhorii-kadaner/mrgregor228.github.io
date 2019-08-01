@@ -64,6 +64,12 @@ body {
     font-size:calc(100%-0.5px);
 }
 
+.maincol > .col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.card.text-white.bg-danger.mb-3 {
+    margin-right: 1em;
+    margin-left: 1em;
+    padding: 0px;
+}
+
 .sec1 {
     height:100%;
     background:white;
