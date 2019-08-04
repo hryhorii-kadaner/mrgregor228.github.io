@@ -105,10 +105,10 @@ iframe {
 
 .btn-danger {
     position: absolute;
-    top: 47%;    
+    top: 50%;    
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -47%);
+    transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
     background-color: #d9534f;
     color:#fff;
@@ -149,10 +149,10 @@ iframe {
 @media screen and (max-width: 756px) {
     .btn-danger {
         position: absolute;
-        top: 47%;    
+        top: 55%;    
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -47%);
+        transform: translate(-50%, -55%);
         font-family: 'Montserrat', sans-serif;
         background-color: #d9534f;
         color:#fff;
@@ -365,6 +365,8 @@ iframe {
         font-family: "Montserrat", sans-serif;
         font-size: 16px;
     }
+
+
 }
 
 .card-title {
