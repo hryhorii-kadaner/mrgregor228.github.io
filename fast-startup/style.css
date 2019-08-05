@@ -55,6 +55,7 @@ body {
 .medium-text {
     font-family: 'Montserrat', sans-serif;
     font-size:30px;
+    transition: .4s;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,6 +64,9 @@ body {
     } 
     .big-text {
         font-size:30px;
+    }
+    .medium-text {
+        font-size: 20px;
     }
 }
 
@@ -101,6 +105,11 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     margin:10px;
+}
+.play {
+    padding:0px;
+    margin:0px;
+    transition: .3s linear;
 }
 
 .btn-player {
@@ -175,8 +184,8 @@ body {
     transform: translate(0px, 0px);
     top: 80%; 
     left:20px;
-    border-radius: 50%;
     z-index: 99999;
+    border-radius: 50%;
     transition:.4s;
 }
 
@@ -249,6 +258,18 @@ body {
 
 .modal-header, .modal-body{
     border:unset;
+    padding: 0px;
+    margin:0px;
+}
+
+.modal-dialog {
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 576px) {
+    .modal-dialog {
+        max-width: 95%;
+    }
 }
 
 .quote-img {
@@ -493,6 +514,7 @@ ul.text-left.list-group li:before {
 }
 
 .locked {
+    color: gray;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
@@ -507,12 +529,23 @@ ul.text-left.list-group li:before {
 }
 
 .nedostup {
-    height: 800px;
+    background: lightgray;
+    border-color: lightgray;
+}
+
+.nedostup-text {
+    color: lightgray;
 }
 
 .dz-form {
     height: 85vh;
     width: 100%;
+}
+
+.dayss {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
 }
 /*****************************************footer*****************************************/
 .col_white_amrc { 
