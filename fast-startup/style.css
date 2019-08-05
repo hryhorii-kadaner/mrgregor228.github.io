@@ -266,6 +266,10 @@ body {
     vertical-align: middle;
 }
 
+.modal-dialog.small {
+    max-width: 500px
+}
+
 @media screen and (min-width: 576px) {
     .modal-dialog {
         max-width: 95%;
