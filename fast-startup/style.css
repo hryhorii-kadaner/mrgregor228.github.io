@@ -8,7 +8,8 @@ body {
 
 .main-sec {
     height:75vh;
-    background:	#d9534f;
+
+    background:url('images/back.png') repeat;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 89%, 50% 100%, 0 89%);
     -moz-clip-path: polygon(0 0, 100% 0, 100% 89%, 50% 100%, 0 89%);
     -ms-clip-path: polygon(0 0, 100% 0, 100% 89%, 50% 100%, 0 89%);
