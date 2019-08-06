@@ -130,7 +130,8 @@ body {
 
 .ifr {
     background:url("images/b.png") no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center center;
     height: 100%;
 }
 
@@ -266,13 +267,19 @@ body {
     vertical-align: middle;
 }
 
+.vh50 {
+     height: 50vh;
+}
+
 .modal-dialog.small {
-    max-width: 500px
+    max-width: 500px;
+
 }
 
 @media screen and (min-width: 576px) {
     .modal-dialog {
-        max-width: 95%;
+        max-width:70%;
+        max-height: 75vh;
     }
 }
 
@@ -550,6 +557,10 @@ ul.text-left.list-group li:before {
     color: #fff;
     font-size: 28px;
     font-weight: bold;
+}
+
+.no-m {
+    padding:0px;
 }
 /*****************************************footer*****************************************/
 .col_white_amrc { 
