@@ -1,5 +1,6 @@
 body {
     overflow-x:hidden;
+    background: #f7f7f7;
 }
 
 .r-text {
@@ -135,22 +136,30 @@ body {
     height: 100%;
 }
 
+.trapezoid-contain {
+    position: relative;
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    padding: 0px;
+}
+
 .trapezoid-top{
     position: relative;
     top:1px;
     background:#f7f7f7;
-    height: 60px;
+    height:100%;
+    width: 100%;
     -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
-.trapezoid-bottom {
+.footer-triangles {
     position: relative;
-    top:-1px;
-    background:#f7f7f7;
+    top:1px;
     height: 60px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 100%);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 100%);
 }
 
 .sec3 {
