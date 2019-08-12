@@ -3,14 +3,33 @@ body {
     background: #f7f7f7;
 }
 
+.main {
+    position: relative;
+    top: 1px;
+    background:#fff;
+}
+
 .r-text {
     color: #d9534f;
 }
 
 
-.main-sec {
-    height:75vh;
+.gift {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0px;
+    background: #d9534f;
+    font-size: 18px;
+    padding: 1.25em;
+}
 
+.gift i {
+    font-size: 20px;
+}
+
+.main-sec {
+    position: relative;
+    top: -1px;
+    height:75vh;
     background:url('images/back.png') repeat;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 89%, 50% 100%, 0 89%);
     -moz-clip-path: polygon(0 0, 100% 0, 100% 89%, 50% 100%, 0 89%);
