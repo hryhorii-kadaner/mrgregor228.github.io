@@ -8,7 +8,7 @@
 }
 
 .ref-link:hover {
-	color: darkorange;
+	color: #790505;
 }
 
 .modal-content {
@@ -21,15 +21,15 @@
 	font-size: 50px;
 	letter-spacing: 2px;
 	font-family: "Abys", sans-serif;
-	color: darkorange;
+	color: #790505;
 }
 .red-bg {
-	background-color: darkorange;
+	background-color: #790505;
 	padding: 2em;
 }
 
 .bg-success {
-	background-color: darkorange!important;
+	background-color: #790505!important;
 }
 
 .timer {
@@ -40,7 +40,7 @@
 .d-flex.mx-auto.timer {
 	position: relative;
 	width: 200px;
-	color: darkorange;
+	color: #790505;
 }
 
 .rreed {
