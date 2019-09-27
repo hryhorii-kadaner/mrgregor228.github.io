@@ -595,6 +595,13 @@ ul.text-left.list-group li:before {
 .no-m {
     padding:0px;
 }
+
+.unsearchable {
+    background: #fff;
+    height: 5em;
+    color: white;
+    z-index: 99999;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
     text-decoration: unset !important;
