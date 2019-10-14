@@ -602,6 +602,10 @@ ul.text-left.list-group li:before {
     color: white;
     z-index: 99999;
 }
+
+.wrp {
+    word-wrap: break-word;
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
     text-decoration: unset !important;
