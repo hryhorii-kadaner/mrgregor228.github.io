@@ -478,6 +478,13 @@ strong {
 .pay-width {
 	max-width: 12em;
 }
+
+
+@media screen and (max-width: 992px) {
+	.hid {
+		display: none;
+	}
+}
 /*****************************************footer*****************************************/
 .col_white_amrc { 
 	text-decoration: unset !important;
