@@ -479,6 +479,9 @@ strong {
 	max-width: 12em;
 }
 
+.cr-books {
+	border-radius: 5px;
+}
 
 @media screen and (max-width: 992px) {
 	.hid {
