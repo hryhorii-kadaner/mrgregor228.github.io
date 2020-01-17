@@ -150,3 +150,57 @@
 	color: white;
 	transition:.5s;
 }
+
+/*     header social icons     */
+
+.header_social_icons {
+	position: relative;
+	display:table; 
+	list-style-type:none;
+}
+
+.header_social_icons li { 
+	position: relative;
+	padding-left:10px; 
+	float:left; 
+	top: 0px;
+	bottom: 5px;
+}
+
+.header_social_icons li a { 
+	color:#b82b14; 
+	border:1px solid #b82b14; 
+	padding:8px;
+	border-radius:50%;
+	transition: .3s;
+	display: block;
+}
+
+.header_social_icons li a:hover {
+	background-color: #b82b14;
+	color: white;
+	box-shadow: 0 0 20px white;
+	transition: .3s;
+}
+
+.header_social_icons li i {  
+	color:#b82b14;
+	width:1em; 
+	height:1em; 
+	text-align:center;
+}
+.header_social_icons li a:hover i {  
+	color:white;
+	transition: .2s;
+}
+
+@media screen and (min-width:992px) and (max-width: 1183px) {
+	.header_social_icons {
+		display: none;
+	}
+}
+@media screen and (max-width:331px) {
+	.header_social_icons li:first-child {
+		padding-left: 0px;
+	}
+}
