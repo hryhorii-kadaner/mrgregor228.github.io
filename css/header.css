@@ -213,3 +213,29 @@
 		padding-left: 0px;
 	}
 }
+
+.banner-cont {
+	position: fixed;
+	background: url("../images/klaks.png") no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	max-width: 200px;
+	min-width: 150px;
+	height:30px!important;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 1.5;
+	z-index: 99999;
+}
+.banner {
+	font-family: "Comfortaa" , sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	color: white!important;
+	display: block;
+	width: 100%!important;	
+	transition: .3s;
+}
+.banner:hover {
+	text-decoration: none;
+}

@@ -67,9 +67,6 @@
 		font-size: 30px;
 		transition: .5s;
 	}
-	.banner {
-		font-size: 60px;
-	}
 }
 
 @media screen and (min-width: 320px) and (max-width:576px) {
