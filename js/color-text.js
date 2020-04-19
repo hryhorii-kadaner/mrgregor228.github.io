@@ -46,3 +46,10 @@ Array.prototype.randomColor = function() {
 
 // Set the text
 document.querySelector('#author').innerHTML = quote.randomColor();
+
+var bannerButton = document.querySelector("a.banner");
+console.log(bannerButton);
+bannerButton.onclick = function (e) {
+  e.preventDefault();
+  window.open('https://coralife-books.cf',  '_blank');
+};
