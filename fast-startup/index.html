@@ -32,29 +32,76 @@
   </section>
 
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-danger dangerous text-center spec" data-toggle="modal" data-target="#formModal">
+  <button type="button" class="btn btn-danger dangerous text-center spec" id="toggleModalRegistrationForm">
     <span class="ic hid">
       <i class="far fa-envelope"></i>
     </span>
     <span class="otchet">Получить доступ</span>
   </button>
 
-  <div class="col-12">
-    <div class="modal fade dz" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog small" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+  <div class="modal-window lh1-5 text-justify" id="modalRegistrationForm">
+    <div class="modal-body-content modal-dialog-scrollable">
+      <div class="closer" style="cursor: pointer;" onclick="closeModal();">
+        <span>&times;</span>
+      </div>
+      <div class="main-content">
+        <h3 class="modal-heading">Получить доступ на марафон</h3>
+        <div class="w-100" id="shower">
+          <div class="col-12 text-center">
+              <i class="far fa-check-circle"></i>
           </div>
-          <div class="modal-body">
-            <iframe class="w-100 registr"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdazt76Afi6DEwOAC4IMqla8leH6IB7AqFW84K9Jb_yMuPksw/viewform?embedded=true"
-              frameborder="0" marginheight="0" marginwidth="0"></iframe>
-          </div>
-        </div>
+          <div class="col-12 text-center">
+              <h3 class="text-submitted"><span class="green">Форма была</span> успешно отправлена!</h3>
+              <p>Доступ открыт по этой ссылке: <br> <a href="https://t.me/joinchat/FkRBJlPkQOn-JS5vnXOv2w" target="_blank">Перейти</a></p>
+          </div>   
+       </div>
+        <iframe src="" name="myFrame" frameborder="0"></iframe>
+        <form action="https://formspree.io/xvowkwve" method="POST" target="myFrame" class="myForm">
+          <fieldset class="email">
+            <legend>Email <span class="required-span">*</span></legend>
+            <input type="email" name="Email" onkeyup="checkEmail();" placeholder="jhonathan@gmail.com" required>
+          </fieldset>
+
+          <fieldset class="fio">
+            <legend>ФИО <span class="required-span">*</span></legend>
+            <input type="text" name="Имя" onkeyup="checkName();" placeholder="Jhonathan Doe" required>
+          </fieldset>
+
+          <fieldset class="country">
+            <legend>Откуда вы? <span class="required-span">*</span></legend>
+            <input type="text" name="Откуда" onkeyup="checkCountry();" placeholder="Страна, Город" minlength="10" maxlength="50" required>
+          </fieldset>
+
+          <fieldset class="radio-buttons" onclick="checkMember();">
+            <legend>Вы член клуба? <span class="required-span">*</span></legend>
+            <label for="radio1">
+              <input type="radio" name="Член клуба" id="radio1" value="Да"> Да<br>
+            </label>
+
+            <label for="radio2">
+              <input type="radio" name="Член клуба" id="radio2" value="Нет"> Нет<br>
+            </label>            
+
+            <label for="radio5">
+              <input type="radio" name="Член клуба" id="radio5" value="Лендинг">
+              Другое
+              <input type="text" name="Член клуба" id="anotherOption" onclick="document.querySelector('#radio5').checked = true;" value=" ">
+            </label>
+          </fieldset>
+          <fieldset class="howDoYouKnow">
+            <legend>Как узнали о марафоне? <span class="required-span">*</span></legend>
+            <input type="text" name="Как узнали о марафоне" onkeyup="checkHowDoYouKnow();" minlength="4" placeholder="Соц сети, наставник, другое..." style="width: 100%;" required>
+          </fieldset>
+          <fieldset class="nearestMaster">
+            <legend>Ваш ближайший Мастер (ФИО) <span class="required-span">*</span></legend>
+            <input type="text" name="Ближайший Мастер" onkeyup="checkNearestMaster();" placeholder="Каданер Елена" minlength="8" maxlength="35"style="width: 100%;" required>
+          </fieldset>
+          <fieldset class="goal">
+            <legend>Какова ваша цель? <span class="required-span">*</span></legend>
+            <textarea name="Цель" onkeyup="checkTextArea();" placeholder="Моя цель... (от 40 до 250 символов)" minlength="40" maxlength="250" rows="5" style="width: 100%;" required></textarea>
+          </fieldset>
+          <input type="submit" disabled onclick="hideshow();">
+        </form>
       </div>
     </div>
   </div>
@@ -382,94 +429,94 @@
 
     </div>
 
-   
+
     <div class="slider-1 owl-carousel owl-theme owl-loaded owl-nav-outer owl-dot-round owl-1 owl-drag">
 
       <div class="owl-stage-outer">
 
-          <div class="owl-stage">
+        <div class="owl-stage">
 
-              <div class="owl-item active">
-                <a href="images/comments/1.jpg" data-fancybox="gallery">
-                  <img src="images/comments/1.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/2.jpg" data-fancybox="gallery">
-                  <img src="images/comments/2.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/3.jpg" data-fancybox="gallery">
-                  <img src="images/comments/3.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/4.png" data-fancybox="gallery">
-                  <img src="images/comments/4.png" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/5.jpg" data-fancybox="gallery">
-                  <img src="images/comments/5.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/6.jpg" data-fancybox="gallery">
-                  <img src="images/comments/6.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/7.jpg" data-fancybox="gallery">
-                  <img src="images/comments/7.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/8.jpg" data-fancybox="gallery">
-                  <img src="images/comments/8.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/9.jpg" data-fancybox="gallery">
-                  <img src="images/comments/9.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/10.jpg" data-fancybox="gallery">
-                  <img src="images/comments/10.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/11.jpg" data-fancybox="gallery">
-                  <img src="images/comments/11.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/12.jpg" data-fancybox="gallery">
-                  <img src="images/comments/12.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/13.jpg" data-fancybox="gallery">
-                  <img src="images/comments/13.jpg" alt="">
-                </a>
-              </div>
-              <div class="owl-item">
-                <a href="images/comments/14.jpg" data-fancybox="gallery">
-                  <img src="images/comments/14.jpg" alt="">
-                </a>
-              </div>
+          <div class="owl-item active">
+            <a href="images/comments/1.jpg" data-fancybox="gallery">
+              <img src="images/comments/1.jpg" alt="">
+            </a>
           </div>
+          <div class="owl-item">
+            <a href="images/comments/2.jpg" data-fancybox="gallery">
+              <img src="images/comments/2.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/3.jpg" data-fancybox="gallery">
+              <img src="images/comments/3.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/4.png" data-fancybox="gallery">
+              <img src="images/comments/4.png" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/5.jpg" data-fancybox="gallery">
+              <img src="images/comments/5.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/6.jpg" data-fancybox="gallery">
+              <img src="images/comments/6.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/7.jpg" data-fancybox="gallery">
+              <img src="images/comments/7.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/8.jpg" data-fancybox="gallery">
+              <img src="images/comments/8.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/9.jpg" data-fancybox="gallery">
+              <img src="images/comments/9.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/10.jpg" data-fancybox="gallery">
+              <img src="images/comments/10.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/11.jpg" data-fancybox="gallery">
+              <img src="images/comments/11.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/12.jpg" data-fancybox="gallery">
+              <img src="images/comments/12.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/13.jpg" data-fancybox="gallery">
+              <img src="images/comments/13.jpg" alt="">
+            </a>
+          </div>
+          <div class="owl-item">
+            <a href="images/comments/14.jpg" data-fancybox="gallery">
+              <img src="images/comments/14.jpg" alt="">
+            </a>
+          </div>
+        </div>
 
-          
+
 
 
       </div>
       <div class="owl-controls">
         <button class="btn" id="falseNavigationLeft"><i class="fas fa-angle-left fz35"></i></button>
         <button class="btn" id="falseNavigationRight"><i class="fas fa-angle-right fz35"></i></button>
+      </div>
     </div>
-  </div>
 
 
 
@@ -478,7 +525,7 @@
   <p class="unsearchable locked">white space</p>
 
 
-  
+
 
   <section class="cards-cont pb-5">
     <div class="horizontal-card">
@@ -489,24 +536,39 @@
         <div class="card-toggle-menu">
           <button class="menu-toggler">Доп. материалы <i class="fas fa-angle-down"></i></button>
           <div class="card-submenu">
-             <h4 class="submenu-heading">YouTube</h4>
-             <ul>
-              <li><a href="https://www.youtube.com/watch?v=WBFeM2I0N_0&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=4&t=0s" target="_blank">О компании (1:54)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=5TeVj_06JVk&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=3&t=0s" target="_blank">Возможности (5:58)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=9aK4GGQKGNc&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=10&t=0s" target="_blank">Оформление дисконта (0:52)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=PenSA8yOZ-Q&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=12&t=0s" target="_blank">Как создать аккаунт (1:17)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=tN4vkO70duY&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=6&t=0s" target="_blank">Личный кабинет (9:18)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=8GVRNLvePkE&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=16&t=0s" target="_blank">СВА (1:04)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=tDunzgGdaxk&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=57&t=0s" target="_blank">Обзор сайта СВА (3:23)</a></li>
-               
-             </ul>
-             <h4 class="submenu-heading">Бонус</h4>
-             <ul>
-               <li><a href="https://www.youtube.com/playlist?list=PLNfWw9LN2ITyJfQJOHKYfzmyG2ZVcFsZf" target="_blank">Всё о постановке цели <strong>(курс)</strong></a></li>
-             </ul>
-            </div>
+            <h4 class="submenu-heading">YouTube</h4>
+            <ul>
+              <li><a
+                  href="https://www.youtube.com/watch?v=WBFeM2I0N_0&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=4&t=0s"
+                  target="_blank">О компании (1:54)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=5TeVj_06JVk&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=3&t=0s"
+                  target="_blank">Возможности (5:58)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=9aK4GGQKGNc&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=10&t=0s"
+                  target="_blank">Оформление дисконта (0:52)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=PenSA8yOZ-Q&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=12&t=0s"
+                  target="_blank">Как создать аккаунт (1:17)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=tN4vkO70duY&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=6&t=0s"
+                  target="_blank">Личный кабинет (9:18)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=8GVRNLvePkE&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=16&t=0s"
+                  target="_blank">СВА (1:04)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=tDunzgGdaxk&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=57&t=0s"
+                  target="_blank">Обзор сайта СВА (3:23)</a></li>
+
+            </ul>
+            <h4 class="submenu-heading">Бонус</h4>
+            <ul>
+              <li><a href="https://www.youtube.com/playlist?list=PLNfWw9LN2ITyJfQJOHKYfzmyG2ZVcFsZf" target="_blank">Всё
+                  о постановке цели <strong>(курс)</strong></a></li>
+            </ul>
+          </div>
         </div>
-        
+
       </div>
     </div>
     <div class="horizontal-card">
@@ -518,21 +580,35 @@
         <div class="card-toggle-menu">
           <button class="menu-toggler">Доп. материалы <i class="fas fa-angle-down"></i></button>
           <div class="card-submenu">
-             <h4 class="submenu-heading">YouTube</h4>
-             <ul>
-              
-              <li><a href="https://www.youtube.com/watch?v=AgNg-2bDxeI&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=13&t=0s" target="_blank">Мобильное приложение (0:29)</a></li>
-              <li><a href="https://www.youtube.com/watch?v=VLaaA8JQ9uM&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=5&t=0s" target="_blank">Обзор мобильного приложения (3:32)</a></li>
-              <li><a href="https://www.youtube.com/watch?v=MPeluI7aTOI&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=11&t=0s" target="_blank">Как сделать заказ <strong>(Компьютер 1:27)</strong></a></li>
-               <li><a href="https://www.youtube.com/watch?v=tTpKQtIvsTg&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=9&t=0s" target="_blank">Как сделать заказ <strong>(Смартфон 3:15)</strong></a></li>
-               <li><a href="https://www.youtube.com/watch?v=uuyjasKmMH4&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=8&t=0s" target="_blank">Перевод бонусов (1:48)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=Oypr4zRxepk&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=17&t=0s" target="_blank">Как найти офис? (2:32)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=ih8_gMWkj5I&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=19&t=0s" target="_blank">Как скачать каталог (2:08)</a></li>
-               
-             </ul>
-            </div>
+            <h4 class="submenu-heading">YouTube</h4>
+            <ul>
+
+              <li><a
+                  href="https://www.youtube.com/watch?v=AgNg-2bDxeI&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=13&t=0s"
+                  target="_blank">Мобильное приложение (0:29)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=VLaaA8JQ9uM&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=5&t=0s"
+                  target="_blank">Обзор мобильного приложения (3:32)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=MPeluI7aTOI&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=11&t=0s"
+                  target="_blank">Как сделать заказ <strong>(Компьютер 1:27)</strong></a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=tTpKQtIvsTg&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=9&t=0s"
+                  target="_blank">Как сделать заказ <strong>(Смартфон 3:15)</strong></a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=uuyjasKmMH4&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=8&t=0s"
+                  target="_blank">Перевод бонусов (1:48)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=Oypr4zRxepk&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=17&t=0s"
+                  target="_blank">Как найти офис? (2:32)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=ih8_gMWkj5I&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=19&t=0s"
+                  target="_blank">Как скачать каталог (2:08)</a></li>
+
+            </ul>
+          </div>
         </div>
-        
+
       </div>
     </div>
     <div class="horizontal-card">
@@ -543,19 +619,18 @@
         <div class="card-toggle-menu">
           <button class="menu-toggler">Доп. материалы <i class="fas fa-angle-down"></i></button>
           <div class="card-submenu">
-             <h4 class="submenu-heading">YouTube</h4>
-             <ul>
-               <li><a href="https://www.youtube.com/watch?v=qFGYNSIANIU&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=35&t=0s" target="_blank">Разбор новой технологии (32:54)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=JNucNbfbODo&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=56&t=0s" target="_blank">Технология проведения онлайн-встреч (28:46)</a></li>               
-             </ul>
-             <h4 class="submenu-heading">Бонус</h4>
-             <ul>
-              <li><a href="https://www.youtube.com/watch?v=iK0b10WgBFc&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=58&t=0s" target="_blank">Instagram обзор (30:33)</a></li>
-              <li><a href="https://www.youtube.com/playlist?list=PLNfWw9LN2ITxpWIEwx9V5e4lihxiQTjnm" target="_blank">Instagram для новичка <strong>(курс)</strong></a></li>
-             </ul>
-            </div>
+            <h4 class="submenu-heading">YouTube</h4>
+            <ul>
+              <li><a
+                  href="https://www.youtube.com/watch?v=qFGYNSIANIU&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=35&t=0s"
+                  target="_blank">Разбор новой технологии (32:54)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=JNucNbfbODo&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=56&t=0s"
+                  target="_blank">Технология проведения онлайн-встреч (28:46)</a></li>
+            </ul>
+          </div>
         </div>
-        
+
       </div>
     </div>
     <div class="horizontal-card">
@@ -566,13 +641,14 @@
         <div class="card-toggle-menu">
           <button class="menu-toggler">Доп. материалы <i class="fas fa-angle-down"></i></button>
           <div class="card-submenu">
-             <h4 class="submenu-heading">YouTube</h4>
-             <ul>
-               <li><a href="https://youtu.be/DZ8eRmJBbFs?list=PLNfWw9LN2ITzBRaVylBZ6lsdocwvE1n5O" target="_blank">Изменения начинаются с тебя (3:33)</a></li>
-             </ul>
-            </div>
+            <h4 class="submenu-heading">YouTube</h4>
+            <ul>
+              <li><a href="https://youtu.be/DZ8eRmJBbFs?list=PLNfWw9LN2ITzBRaVylBZ6lsdocwvE1n5O"
+                  target="_blank">Изменения начинаются с тебя (3:33)</a></li>
+            </ul>
+          </div>
         </div>
-        
+
       </div>
     </div>
     <div class="horizontal-card">
@@ -583,12 +659,20 @@
         <div class="card-toggle-menu">
           <button class="menu-toggler">Доп. материалы <i class="fas fa-angle-down"></i></button>
           <div class="card-submenu">
-             <h4 class="submenu-heading">YouTube</h4>
-             <ul>
-               <li><a href="https://www.youtube.com/watch?v=PerU-neW5WY" target="_blank">Моя история (1:57)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=terE3tIXSVE" target="_blank">Дневник успеха (8:18)</a></li>
-             </ul>
-            </div>
+            <h4 class="submenu-heading">YouTube</h4>
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=PerU-neW5WY" target="_blank">Моя история (1:57)</a></li>
+              <li><a href="https://www.youtube.com/watch?v=terE3tIXSVE" target="_blank">Дневник успеха (8:18)</a></li>
+            </ul>
+            <h4 class="submenu-heading">Бонус</h4>
+            <ul>
+              <li><a
+                  href="https://www.youtube.com/watch?v=iK0b10WgBFc&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=58&t=0s"
+                  target="_blank">Instagram обзор (30:33)</a></li>
+              <li><a href="https://www.youtube.com/playlist?list=PLNfWw9LN2ITxpWIEwx9V5e4lihxiQTjnm"
+                  target="_blank">Instagram для новичка <strong>(курс)</strong></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -600,16 +684,24 @@
         <div class="card-toggle-menu">
           <button class="menu-toggler">Доп. материалы <i class="fas fa-angle-down"></i></button>
           <div class="card-submenu">
-             <h4 class="submenu-heading">YouTube</h4>
-             <ul>
-               <li><a href="https://www.youtube.com/watch?v=OAljzCwNeJ4&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=2&t=0s" target="_blank">Построй свой бизнес с Coral Club (1:46)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=vDMV3TMFtg0&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=18&t=0s" target="_blank">Информационная рассылка (0:53)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=z4mi33FRkJs&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=20&t=0s" target="_blank">Маркетинг план (1:47)</a></li>
-               <li><a href="https://www.youtube.com/watch?v=7Q4u8YdqIE8&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=25&t=0s" target="_blank">Базовые навыки лидера (37:08)</a></li>
-             </ul>
-            </div>
+            <h4 class="submenu-heading">YouTube</h4>
+            <ul>
+              <li><a
+                  href="https://www.youtube.com/watch?v=OAljzCwNeJ4&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=2&t=0s"
+                  target="_blank">Построй свой бизнес с Coral Club (1:46)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=vDMV3TMFtg0&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=18&t=0s"
+                  target="_blank">Информационная рассылка (0:53)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=z4mi33FRkJs&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=20&t=0s"
+                  target="_blank">Маркетинг план (1:47)</a></li>
+              <li><a
+                  href="https://www.youtube.com/watch?v=7Q4u8YdqIE8&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=25&t=0s"
+                  target="_blank">Базовые навыки лидера (37:08)</a></li>
+            </ul>
+          </div>
         </div>
-        
+
       </div>
     </div>
     <div class="horizontal-card">
@@ -620,14 +712,16 @@
         <div class="card-toggle-menu">
           <button class="menu-toggler">Доп. материалы <i class="fas fa-angle-down"></i></button>
           <div class="card-submenu">
-             <h4 class="submenu-heading">YouTube</h4>
-             <ul>
-               <li><a href="https://www.youtube.com/watch?v=ZQNfGaF0Y9U&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=15&t=0s" target="_blank">Как пользоваться калькулятором (2:49)</a></li>
-               <li><a href="https://youtu.be/RIc7O41_wlM" target="_blank">Организатор жизни (12:56)</a></li>
-             </ul>
-            </div>
+            <h4 class="submenu-heading">YouTube</h4>
+            <ul>
+              <li><a
+                  href="https://www.youtube.com/watch?v=ZQNfGaF0Y9U&list=PLNfWw9LN2ITzTydOkx1PTrc4-deHhFQB8&index=15&t=0s"
+                  target="_blank">Как пользоваться калькулятором (2:49)</a></li>
+              <li><a href="https://youtu.be/RIc7O41_wlM" target="_blank">Организатор жизни (12:56)</a></li>
+            </ul>
+          </div>
         </div>
-        
+
       </div>
     </div>
     <br>
@@ -739,7 +833,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
-<!-- Fancy Box -->
+  <!-- Fancy Box -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://vasyl-pilka.ml/riznobarvna-ukrayina/js/jquery.fancybox.min.js"></script>
 
@@ -755,7 +849,7 @@
   <script src="owl/highlight.js"></script>
   <script src="owl/owl-start.js"></script>
 
-  
+
 </body>
 
 </html>
