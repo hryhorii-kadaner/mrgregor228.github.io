@@ -50,7 +50,7 @@ $({numberValue: currentNumber}).animate({numberValue: 175}, {
 
 var currentNumber = $('#dynamic-number6').text();
 
-$({numberValue: currentNumber}).animate({numberValue: 180}, {
+$({numberValue: currentNumber}).animate({numberValue: 200}, {
     duration: 6000,
     easing: 'linear',
     step: function() { 
@@ -70,7 +70,7 @@ $({numberValue: currentNumber}).animate({numberValue: 288}, {
 
 var currentNumber = $('#dynamic-number8').text();
 
-$({numberValue: currentNumber}).animate({numberValue: 2500}, {
+$({numberValue: currentNumber}).animate({numberValue: 2900}, {
     duration: 6000,
     easing: 'linear',
     step: function() { 
