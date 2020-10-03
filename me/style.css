@@ -111,7 +111,7 @@ img.figure-img.rounded {
 	-o-background-position: center;
 	-webkit-background-position: center;
 	-moz-background-position: center;
-	background-position: top;
+	background-position: center center;
 }
 .main-content iframe {
 	margin-top: 15px;

@@ -38,7 +38,36 @@
     </span>
     <span class="otchet">Получить доступ</span>
   </button>
-
+  <div class="bot-modal-wrapper">
+    <div class="bot-modal">
+    <div class="bot-modal__img">
+      <img src="https://i.ibb.co/9vwfJzV/robot-2027195-1280.png" alt="">
+    </div>
+    <div class="bot-modal__description">
+      <h3 class="bot-modal__heading">Пройти все шаги вместе с Coral Helper Bot!</h3>
+      <ul class="bot-modal__list">
+        <li><i class="far fa-check-circle"></i> Получите все материалы сразу и навсегда!</li>
+        <li><i class="far fa-check-circle"></i> Проходите марафон в любое время!</li>
+        <li><i class="far fa-check-circle"></i> Разблокируйте дополнительные материалы с помощью <strong>промо-кода</strong>!</li>
+        <li><i class="far fa-check-circle"></i> Получите бонусы!</li>
+      </ul>
+      <button>Хочу!</button><button>Закрыть</button>
+    </div>
+  </div>
+  </div>
+  <div class="promo-box">
+    <div class="promo-header">
+      <button class="promo-close">
+        &times;
+      </button>
+    </div>	
+    <div class="promo-description">
+      <h4>Есть промокод? Введите его прямо сюда!</h4>
+      <span class="red-text" style="display: none;">Данного промокода не существует!</span>
+      <input type="text" name="promo" id="promo-input"><button type="submit" id="send-promo">Активировать</button>
+      <span class="promo-active" style="color:green; font-weight: bold;"></span>
+    </div>
+  </div>
   <div class="modal-window lh1-5 text-justify" id="modalRegistrationForm">
     <div class="modal-body-content modal-dialog-scrollable">
       <div class="closer" style="cursor: pointer;" onclick="closeModal();">
@@ -54,6 +83,10 @@
               <h3 class="text-submitted"><span class="green">Форма была</span> успешно отправлена!</h3>
               <p>Доступ открыт по этой ссылке: <br> <a href="https://t.me/joinchat/FkRBJlPkQOn-JS5vnXOv2w" target="_blank">Перейти</a></p>
           </div>   
+          <hr>
+          <i class="fas fa-robot"></i>
+          <h3 class="text-submitted">Пройди марафон с ботом, в удобном для вас темпе!</h3>
+          <p><button>Подробнее...</button></p>
        </div>
         <iframe src="" name="myFrame" frameborder="0"></iframe>
         <form action="https://formspree.io/xvowkwve" method="POST" target="myFrame" class="myForm">
@@ -101,6 +134,7 @@
             <textarea name="Цель" onkeyup="checkTextArea();" placeholder="Моя цель... (от 40 до 250 символов)" minlength="40" maxlength="250" rows="5" style="width: 100%;" required></textarea>
           </fieldset>
           <input type="submit" disabled onclick="hideshow();">
+          <button class="trigger-bot-modal" onclick="hideshow();">Я уже ранее заполнял(-а) эту форму</button>
         </form>
       </div>
     </div>
