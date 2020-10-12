@@ -91,6 +91,7 @@
 	max-width: 320px;
 	border-radius:0px;
 	transition: .5s;
+	white-space: pre-wrap;
 }
 
 @media screen and (max-width: 992px) {
