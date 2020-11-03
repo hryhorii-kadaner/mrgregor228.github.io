@@ -46,7 +46,7 @@ botModalButtonTrigger.addEventListener('click', (e) => {
     }, 200);
 });
 botModalIWant.addEventListener('click', ()=>{
-    window.open('https://t.me/coral_helper_bot');
+    window.open('https://t.me/MrGregorK');
 });
 sendPromo.addEventListener('click', () => {
     if (promoInput.value == promo) {
