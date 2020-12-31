@@ -51,5 +51,5 @@ var bannerButton = document.querySelector("a.banner");
 console.log(bannerButton);
 bannerButton.onclick = function (e) {
   e.preventDefault();
-  window.open('https://coralife-books.cf',  '_blank');
+  window.open('https://coralife-books.ml',  '_blank');
 };
